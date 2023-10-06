@@ -1,8 +1,8 @@
 # OS-EX.6-IMPLEMENTATION-OF-INTER-PROCESS-COMMUNICATION-USING-PIPE
 
-## AIM:
+## AIM:   
 To Implement the Inter Process Communication using pipe
-ALGORITHM:
+## ALGORITHM:    
 step 1.Create a child process usingfork().
 
 step 2.Create a simple pipe with C, we make use of the pipe() systemcall.
@@ -15,8 +15,9 @@ step 5.Close the write end of child process and performreading.
 
 step 6.Display thetext.
 
-## PROGRAM:
-```#include <stdio.h>
+## PROGRAM:     
+```
+#include <stdio.h>
 
 int main()
 
@@ -58,9 +59,10 @@ return 0;
 ```
 
 
-## OUTPUT:    
+## OUTPUT:   
+
 ![image](https://github.com/BejinB/OS-EX.6-IMPLEMENTATION-OF-INTER-PROCESS-COMMUNICATION-USING-PIPE/assets/118367518/3e6eb3fb-6f67-4390-a8c2-25952a839c2b)
 
 
-## RESULT:
+## RESULT:        
 Thus the IPC using pipes mechanisms is illustrated using c program successfully
